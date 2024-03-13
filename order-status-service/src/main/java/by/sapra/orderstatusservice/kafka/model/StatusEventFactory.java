@@ -1,7 +1,12 @@
 package by.sapra.orderstatusservice.kafka.model;
 
+import java.time.Instant;
+
 public class StatusEventFactory {
     public StatusEvent create(OrderEvent orderEvent) {
-        return new StatusEvent();
+        StatusEvent statusEvent = new StatusEvent();
+        statusEvent.setDate(Instant.now());
+        statusEvent.setStatus("PROCESS");
+        return statusEvent;
     }
 }
