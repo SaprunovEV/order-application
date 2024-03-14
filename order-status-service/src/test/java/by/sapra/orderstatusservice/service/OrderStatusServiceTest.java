@@ -24,18 +24,18 @@ class OrderStatusServiceTest {
 
     @DynamicPropertySource
     public static void propertySource(DynamicPropertyRegistry registry) {
-        registry.add("app.kafka.order-status-topic", () -> "order-status-topic");
+        registry.add("app.kafka.write-topic", () -> "order-status-topic");
     }
 
     @Autowired
     OrderStatusService service;
 
     @MockBean
-    KafkaTemplate<String, StatusEvent> kafkaTemplate;
+    KafkaTemplate<String, Object> kafkaTemplate;
     @MockBean
     StatusEventFactory factory;
 
-    @Value("${app.kafka.order-status-topic}")
+    @Value("${app.kafka.write-topic}")
     String orderStatusTopic;
 
     @Test
