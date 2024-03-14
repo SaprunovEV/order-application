@@ -22,6 +22,9 @@ repositories {
 }
 
 dependencies {
+	implementation("com.fasterxml.jackson.core:jackson-databind")
+	implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
+
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.springframework.kafka:spring-kafka")
 
@@ -34,6 +37,8 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-testcontainers")
 	testImplementation("org.testcontainers:junit-jupiter")
 	testImplementation("org.testcontainers:kafka")
+
+	testImplementation("org.awaitility:awaitility:4.2.0")
 }
 
 tasks.withType<Test> {
