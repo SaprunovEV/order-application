@@ -1,8 +1,8 @@
 package by.sapra.orderstatusservice.service;
 
-import by.sapra.orderstatusservice.kafka.model.OrderEvent;
-import by.sapra.orderstatusservice.kafka.model.StatusEvent;
-import by.sapra.orderstatusservice.kafka.model.StatusEventFactory;
+import by.sapra.kafka.model.OrderEvent;
+import by.sapra.kafka.model.StatusEvent;
+import by.sapra.orderstatusservice.config.StatusEventFactory;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

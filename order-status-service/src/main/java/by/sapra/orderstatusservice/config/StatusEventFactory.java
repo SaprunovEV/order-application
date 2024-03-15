@@ -1,5 +1,7 @@
-package by.sapra.orderstatusservice.kafka.model;
+package by.sapra.orderstatusservice.config;
 
+import by.sapra.kafka.model.OrderEvent;
+import by.sapra.kafka.model.StatusEvent;
 import org.springframework.stereotype.Component;
 
 import java.time.Instant;

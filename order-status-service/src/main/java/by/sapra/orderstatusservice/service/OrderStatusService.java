@@ -1,6 +1,6 @@
 package by.sapra.orderstatusservice.service;
 
-import by.sapra.orderstatusservice.kafka.model.OrderEvent;
+import by.sapra.kafka.model.OrderEvent;
 
 public interface OrderStatusService {
 

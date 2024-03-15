@@ -1,6 +1,6 @@
-package by.sapra.orderstatusservice.kafka.listener;
+package by.sapra.orderstatusservice.listener;
 
-import by.sapra.orderstatusservice.kafka.model.OrderEvent;
+import by.sapra.kafka.model.OrderEvent;
 import by.sapra.orderstatusservice.service.OrderStatusService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;

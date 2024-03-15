@@ -1,6 +1,6 @@
 package by.sapra.orderservice.kafka.listener;
 
-import by.sapra.orderservice.kafka.model.StatusEvent;
+import by.sapra.kafka.model.StatusEvent;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

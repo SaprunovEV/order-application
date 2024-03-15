@@ -1,7 +1,7 @@
 package by.sapra.orderstatusservice.service;
 
-import by.sapra.orderstatusservice.kafka.model.OrderEvent;
-import by.sapra.orderstatusservice.kafka.model.StatusEventFactory;
+import by.sapra.kafka.model.OrderEvent;
+import by.sapra.orderstatusservice.config.StatusEventFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;

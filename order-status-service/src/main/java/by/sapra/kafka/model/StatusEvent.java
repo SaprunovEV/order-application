@@ -1,4 +1,4 @@
-package by.sapra.orderstatusservice.kafka.model;
+package by.sapra.kafka.model;
 
 import lombok.Data;
 

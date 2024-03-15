@@ -1,4 +1,4 @@
-package by.sapra.orderstatusservice.kafka.config;
+package by.sapra.orderstatusservice.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;

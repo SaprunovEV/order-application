@@ -1,6 +1,6 @@
 package by.sapra.orderstatusservice.service;
 
-import by.sapra.orderstatusservice.kafka.model.StatusEventFactory;
+import by.sapra.orderstatusservice.config.StatusEventFactory;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.kafka.core.KafkaTemplate;

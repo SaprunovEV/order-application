@@ -1,6 +1,6 @@
 package by.sapra.orderservice.service;
 
-import by.sapra.orderservice.kafka.model.OrderEvent;
+import by.sapra.kafka.model.OrderEvent;
 import by.sapra.orderservice.web.v1.model.OrderRequest;
 import by.sapra.orderservice.web.v1.model.OrderResponse;
 import org.junit.jupiter.api.Test;

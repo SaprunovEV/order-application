@@ -1,4 +1,4 @@
-package by.sapra.orderservice.kafka.config;
+package by.sapra.orderservice.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
